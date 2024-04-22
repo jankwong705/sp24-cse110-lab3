@@ -1,0 +1,22 @@
+:root {
+    --main: #FFFFFF     /*fallback color */
+}
+h1 {
+    color: green    /* apply color to h1 header*/
+}
+h2 {
+    color: rgb(100, 70, 200)    /* apply color to h2 header*/
+}
+h3 {
+    color: #FFFFB3;     /* apply color to h3 header*/
+}
+
+h4 {
+    color: color(rgb, 100, 70, 122);
+}
+ul {
+    color: color-mix(method, color1[ p1], color2[ p2])
+}
+body {
+    background-color: rgb(200, 150, 200)
+}
