@@ -2,6 +2,12 @@
     --main-color: rgb(200, 150, 200);   /* preferred color */
     --fallback: #aee3de;     /* fallback color */
 }
+@media (overflow-block: scroll) {
+
+  }
+body {
+    font-family: 'Trebuchet MS';
+}
 h1 {
     color: green;    /* apply color to h1 header*/
     font-size: 1cm;     /* font-size with abs unit*/
@@ -48,6 +54,8 @@ section {
     margin: 10px 10px 10px 10px;    /* margin */
     border: 3px dashed black;       /* border */
     width: 20cm;    /* width */
+    display: flex;  /* flexbox */
+    flex-direction: column;
 }       
 .attendance {
     margin: auto;   /* margin */
@@ -61,13 +69,28 @@ section {
     border-radius: 10%;
     min-width: 100px;   /* width */
     max-width: 20cm;
-}
+    display: flex;  /* flexbox */
+    align-items: flex-start;
+}  
 button:hover {
     color: blue;    /** when hover **/
 }
 button:active {
     color: red;     /** when clicked **/
 }
-.details {
-    display: flex;
+.img {
+    display: flex;  /* flexbox */
+    align-content: end;
+}
+.new_biz {
+    display: grid;  /* grid */
+    grid-template-rows: auto;
+}
+.un_biz {
+    display: grid;  /* grid */
+    justify-self: start;
+}
+.misc {
+    display: grid;  /* grid */
+    grid-template-columns: max-content;
 }
