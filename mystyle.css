@@ -118,7 +118,7 @@ h4 ~ ol {
     text-decoration: overline;
 }
 div.anakin {
-    text-shadow: #FFFFB3;
+    text-shadow: white;
 }
 summary:has(+ p) {
     margin-bottom: auto;
