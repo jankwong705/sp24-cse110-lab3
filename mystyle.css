@@ -92,7 +92,7 @@ button:active {
 .un_biz {
     display: grid;  /* grid */
     justify-self: start;
-    a {
+    & a {
         text-decoration: underline;
         color: teal;
     }
