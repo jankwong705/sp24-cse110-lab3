@@ -89,7 +89,7 @@ button:active {
     display: grid;  /* grid */
     grid-template-rows: auto;
 }
-.un_biz {
+.un_biz { 
     display: grid;  /* grid */
     justify-self: start;
     & a {
